@@ -21,9 +21,9 @@ ISR(INT0_vect) {
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(2, INPUT);
-  pinMode(3, INPUT);
-  pinMode(A0, INPUT);
+  DDRD = 0b11110000;
+  DDRB = 0b00111111;
+  EIMSK = 0b00000001;
   Serial.begin(9600);
 }
  void loop() {

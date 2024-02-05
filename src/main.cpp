@@ -8,6 +8,9 @@ typedef struct{
 
 void setup() {
   // put your setup code here, to run once:
+  pinMode(2, INPUT);
+  pinMode(3, INPUT);
+  pinMode(A0, INPUT);
   Serial.begin(9600);
 }
 

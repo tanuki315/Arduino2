@@ -28,7 +28,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digital_in1 = 0;
-  input *value;
-  read(value);
+  input *value; //構造体のポインタを宣言
+  read(value); //構造体のポインタを引数に渡す
 }
 

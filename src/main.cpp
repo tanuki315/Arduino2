@@ -25,9 +25,10 @@ void setup() {
   EIMSK = 0b00000001;
   Serial.begin(9600);
 }
- void loop() {
+void loop() {
   // put your main code here, to run repeatedly:
   digital_in1 = 0;
   input *value;
   read(value);
- }
+}
+
